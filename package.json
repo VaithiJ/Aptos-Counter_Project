@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "aptos": "^1.20.0",
+    "dotenv": "^16.3.1"
+  }
+}

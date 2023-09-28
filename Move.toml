@@ -1,0 +1,19 @@
+[package]
+name = "apt1"
+version = "1.0.0"
+upgrade_policy="compatible"
+authors = []
+
+[addresses]
+MyCounterAddr ='d2d5d5a71677ece338669d614d6ab1b100e3d8803772f9deac263c764aa0d53c'
+Std = "0x1"
+aptos_std = "0x1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
